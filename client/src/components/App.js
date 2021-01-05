@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import { Router, Switch, Route } from 'react-router-dom'
 import axios from 'axios'
 import { useAuth0 } from '@auth0/auth0-react'
 import history from '../history'
